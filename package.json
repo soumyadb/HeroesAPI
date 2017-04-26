@@ -1,0 +1,26 @@
+{
+  "name": "heroesapi",
+  "version": "1.0.0",
+  "description": "heroesapi",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.3.1",
+    "hapi": "^16.1.1",
+    "joi": "^10.4.1",
+    "mssql": "^4.0.2",
+    "tedious": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0",
+    "minimist": "^1.2.0"
+  }
+}
